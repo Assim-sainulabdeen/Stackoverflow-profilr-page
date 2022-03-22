@@ -122,32 +122,144 @@ body{
 
 .container{
 	border: 1px solid blue;
-	margin: 0 40px;
+	width: 100%;
+	float: left;
 }
 
 .left-navbar{
 	border: 1px solid orange;
-	width:12%;
+	width:13%;
+	float: left;
+	margin-left: 35px;
+	margin-top: 15px;
 }
 
-.nav-links{
-	list-style-type: none;
-	border: 1px solid;
-	text-align:left;
-	padding: 0;
+.home, .public, .question, .collectives, .explore, .find{
+	padding: 10px;
+	font-size: 12px;
+	color:#6a737c;
 }
 
-li{
-	padding: 5px 5px;
-	border: 1px solid blue;
-	margin-bottom: 5px;
+.home:hover, .question:hover, .collectives:hover, .explore:hover, .find:hover, .tags:hover,.jobs:hover, .companies:hover{
+	cursor: pointer;
 }
 
-.links{
-	list-style-position: inside;
-	list-style-type : none;
-	padding-left: 15px;
+.tags, .users, .jobs, .companies{
+	padding: 8px;
+	margin-left: 27px;
+	font-size: 12px;
+	color:#6a737c;
 }
 
+.teams, .create{
+	padding: 12px;
+	font-size: 12px;
+	color:#6a737c;
+}
 
+.teams:hover, .create:hover{
+	cursor: pointer;
+}
+.fa-circle-info {
+	padding-left:35px;
+	color: #6a737c;
+	font-size: 15px;
+}
+.fa-sun{
+	color:#f48225;
+	font-size: 15px;
+	margin-right: 2px;
+}
 
+.teams .fa-circle-info {
+	padding-left:75px;
+}
+
+.fa-earth-americas{
+	font-size: 15px;
+}
+
+.main{
+	border: 1px solid green;
+	width: 84%;
+	float: left;
+	margin-top: 15px;
+}
+
+.profile{
+	border: 1px solid yellow;
+	width: 100%;
+	float: left;
+}
+
+.image{
+	width: 13%;
+	float: left;
+}
+.prof-pic{
+	width: 128px;
+	height: 128px;
+	border-radius: 5px;
+	margin-left: 15px;
+}
+
+.profile-body{
+	width: 50%;
+	float: left;
+	color: #232629;
+	margin:0px 8px;
+}
+
+.profile-name{
+	font-size: 32px;
+	margin:4px 4px 8px;
+}
+
+.profile-education{
+	font-size: 21px;
+	margin:0px 0px  8px 4px;
+	color:#6a737c;
+}
+
+.profile-details{
+	margin-left: 4px;
+	font-size: 14px;
+	color:#6a737c;
+	margin-bottom:8px;
+}
+
+.fa-cake-candles{
+	margin-right: 5px;
+	color:#9199a1;
+	font-size: 18px;
+}
+
+.profile-location{
+	font-size: 13px;
+	color:#6a737c;
+	margin-left: 4px;
+}
+
+.fa-twitter, .fa-github, .fa-location-dot{
+	color: #9199a1;
+	margin-right: 4px;
+	
+}
+
+.profile-button{
+	width: 10%;
+	float: left;
+	margin-left: 280px;
+}
+
+.profile-btn{
+	margin: 3px;
+	border: 1px solid #9fa6ad;
+	padding: 8px;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+
+.fa-caret-down{
+	padding-left: 10px;
+}
