@@ -475,10 +475,7 @@ li{
 }
 
 .badge-icon{
-	background: url("../assets/images/gold.png") no-	repeat center center;
-	background-size:50px;
-	float: left;
+	background: url("../assets/images/gold.png") no-repeat center center;
+	background-size: 5px;
+	float: right;
 }
-
-
-.
