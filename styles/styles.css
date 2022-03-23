@@ -14,7 +14,6 @@ body{
 
 .header{
 	border-top: 3px solid #f48225;
-	border-bottom: 1px solid red;
 	width: 100%;
 	text-align: center;
 	display: flex;
@@ -116,24 +115,23 @@ body{
 
 .fa-inbox, .fa-trophy, .fa-circle-question, .fa-list-ul{
 	color: #838c95;
-	margin-left:0px 3px;
+	margin-left: 3px;
 	font-size:18px;
 }
 
 .container{
-	border: 1px solid blue;
 	width: 100%;
 	float: left;
-	display: flex;
 }
 
 .left-navbar{
-	border: 1px solid orange;
 	width:13%;
 	float: left;
 	margin-left: 35px;
 	margin-top: 15px;
 	cursor: pointer;
+	position: fixed;
+	height: 100%;
 }
 
 .tags, .users, .jobs, .companies{
@@ -185,14 +183,14 @@ body{
 }
 
 .main{
-	border: 1px solid green;
 	width: 84%;
 	float: left;
 	margin-top: 15px;
+	margin-left: 15%;
+	border-left: 1px solid #d6d9dc;
 }
 
 .profile{
-	border: 1px solid yellow;
 	width: 100%;
 	float: left;
 	display: flex;
@@ -201,7 +199,6 @@ body{
 .image{
 	width: 13%;
 	float: left;
-	dispaly: flex;	
 }
 
 .image-btn{
@@ -295,6 +292,7 @@ body{
 	margin: 15px 15px 0px;
 	width: 96%;
 	float: left;
+	
 }
 
 .main-content-left{
@@ -337,8 +335,8 @@ body{
 }
 
 .reached-number, .reached-text{
-	color:#0c0d0e
-	margin-left: 10px;
+	color:#0c0d0e;
+	margin-left: 3px;
 }
 
 .reached-text, .reputation-text{
@@ -404,7 +402,6 @@ body{
 }
 
 .main-middle{
-	border: 1px solid red;
 	float: left;
 	width: 70%;
 	padding: 12px 15px;
@@ -456,14 +453,9 @@ li{
 }
 
 .badges{
-	border: 1px solid blue;
 	padding-top: 12px;
 	width: 100%;
 	float: left;
-}
-
-.badge-name{
-	border: 1px solid red;
 }
 
 .gold-badge{
@@ -574,22 +566,20 @@ li{
 }
 
 .top-tags{
-	border: 1px solid violet;
 	padding: 0;
 	margin:0;
 	margin-top: 10px;
 }
 
-#topTags{
-	border: 1px solid red;
+#topTags, #topTags1, #topTags2, #topTags3, #topTags4, #topTags5 {
+	border: 1px solid #d6d9dc;
 	width: 100%;
 	float: left;
-	margin-top: 10px;
+	border-radius: 6px;
 	
 }
 
 .angular{
-	border: 1px solid blue;
 	padding: 12px;
 	width: 100%;
 	float: left;
@@ -597,15 +587,13 @@ li{
 
 
 
-.tags{
-	border: 1px solid red;
+.tags2{
 	margin: 0;
 	width: 20%;
 	float: left;
 }
 
 .view{
-	border: 1px solid blue;
 	width: 16%;
 	float: right;
 	padding: 12px 0;
@@ -640,5 +628,209 @@ li{
 	background-color: #a0d9f4;
 	color:#399bd2;
 	border: none;
-	border-radius: 1px;
+	border-radius: 3px;
+	padding: 3px;
+}
+
+.top-posts{
+	width: 100%;
+	float: left;
+	margin-top: 30px;
+}
+
+.top-postheading{
+	width: 100%;
+}
+
+.post-main{
+	width: 40%;
+	float: left;
+}
+
+.view-table{
+	width: 45%;
+	float: right;
+	padding: 6px 0 ;
+}
+
+
+table{
+	border-spacing:0;
+	border-collapse: collapse;
+	float: left;
+	margin-left: 40px;
+	border: 1px solid #838c95;
+	border-radius: 2px;
+}
+td{
+	font-size: 12px;
+	padding: 5px 3px;
+	cursor: pointer;
+	border-right: 1px solid #838c95;
+	
+}
+
+
+
+.table{
+	float: left;
+	margin-left: 10px;
+}
+
+.borderRadius{
+	border: 0;
+}
+
+.view-questions{
+	font-size: 12px;
+}
+
+.color{
+	color: #6a737c;
+}
+
+
+.post-table{
+	border: 1px solid #d6d9dc;
+	width: 100%;
+	padding: 0;
+	margin:0;
+	margin-top: 10px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+
+.table-row{
+	padding: 8px;
+}
+
+.data{
+	border: none;
+	font-size: 12px;
+	border-bottom: 1px solid #e3e6e8;
+	padding: 10px;
+	padding-right: 0px;
+
+
+}
+
+.data button{
+	background-color:#5eba7d;
+	border: none;
+	padding: 8px 12px;
+	border-radius:4px;
+}
+
+#button-data{
+	padding: 8px 8px;
+}
+#button-data1{
+	padding: 8px 8px;
+}
+#button-data2{
+	padding: 8px 8px;
+}
+.data-text{
+	font-size: 15px;
+	color:#008adb;
+	
+}
+
+.fa-message{
+	color: #5eba7d;
+	margin-left: 8px;
+	font-size: 16px;
+}
+
+.data2{
+	padding: 0;
+}
+.topMetaPosts{
+	margin-top: 20px;
+}
+
+.message-posts{
+	float: right;
+	color: black;
+}
+
+.message-posts .fa-message{
+	color: grey;
+}
+button.new-btn{
+	padding: 8px 15px;
+	background-color: white;
+	border: 1px solid #c8ccd0;
+}
+
+button.new-btn2{
+	background-color: white;
+	border: 1px solid #c8ccd0;	
+}
+
+td .fa-stack-overflow{
+	color: grey;
+	font-size: 16px;
+}
+
+.topNetPost{
+	margin-top: 20px;
+}
+.topNet span{
+	font-size:12px;
+	color:#525960;
+	padding:10px;
+}
+
+.no-border{
+	border-bottom: none;
+}
+
+
+
+footer{
+	padding:15px;
+	width:100%;
+	display:flex;
+	color:#787773;
+	background-color: rgb(38, 41, 44);    
+	position: relative;
+	z-index: 1;
+}
+.footer-logo {
+	font-size:40px;
+	margin-right:20px;
+	margin-left:40px;
+	margin-top:4px;
+	color:#c77d2e;
+}
+
+.footer-title{
+	color:#cfcecc;
+}
+.link1{
+	margin-right:40px;
+}
+.link1 ul{
+	list-style-type: none;
+}
+.link1 ul li{
+	font-size:13px;
+	padding-top:7px;
+}
+.link ul{
+	list-style-type:none;
+}
+.link2 li{
+	display:inline;
+	font-size:13px;
+	padding:5px;
+	color:#787773;
+}
+.footer-description{
+	font-size:11px;
+	margin-top:54%;
+	margin-left:35px;
+	color:#787773;
 }
