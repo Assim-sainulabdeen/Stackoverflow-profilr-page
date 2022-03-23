@@ -463,22 +463,182 @@ li{
 }
 
 .badge-name{
-	border: 1px solid green;
+	border: 1px solid red;
 }
 
 .gold-badge{
-	border: 1px solid orange;
+	border: 1px solid #d6d9dc;
 	width: 30%;
+	padding: 12px 12px 4px;
+	border-radius: 5px;
 	float: left;
-	padding: 12px;
-	margin: 12px;
 }
 
 .badge-icon{
-	background: url("../assets/images/gold.png") no-	repeat center center;
-	background-size:50px;
+	background: url("../assets/images/gold.png") no-repeat left  center;
+	background-size: 48px;
+	padding: 24px 0;
+	width: 30%;
+	float: left;
+}
+.badge-number{
+	font-size: 18px;
+	padding-bottom: 3px;
+}
+
+.badge-text{
+	font-size: 14px;
+	color: #232629;
+	padding-bottom: 5px;
+
+}
+
+.badge-list{
+	padding: 0 ;
+	margin: 10px 0;
+	list-style-type: none;
+}
+
+.badge-list li{
+	font-size: 12px;
+	border: 1px solid #d6d9dc;
+	padding:4px 8px 4px 4px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background-color: #f1f2f3;	
+}
+.badge-list li:nth-child(1){
+	width:60%;
+}
+
+.badge-list li:nth-child(2){
+	width:65%;
+}
+.badge-list li:nth-child(3){
+	width: 67%;
+	margin:0;
+}
+
+	
+
+.fa-circle{
+	font-size: 7px;
+	margin-right: 5px;
+	color:#ffcc01;
+}
+
+.silver{
+	background: url("../assets/images/silver.png") no-repeat left  center;
+	background-size: 48px;
+}
+
+#silver-badge, #bronze-badge{
+	float: left;
+	margin-left: 30px;
+}
+
+.bronze{
+	background: url("../assets/images/bronze.png") no-repeat left  center;
+	background-size: 48px;
+}
+
+.silver-list .fa-circle{
+	color:#b4b8bc;
+}
+
+.silver-list li:nth-child(1){
+	width: 50%;
+}
+
+.silver-list li:nth-child(2){
+	width: 56%;
+}
+
+.silver-list li:nth-child(3){
+	width: 50%;
+}
+
+.bronze-list .fa-circle{
+	color: #d1a684;
+}
+
+.bronze-list li:nth-child(1){
+	width: 75%;
+}
+.bronze-list li:nth-child(2){
+	width: 60%;
+}
+.bronze-list li:nth-child(3){
+	width: 40%;
+}
+
+.top-tags{
+	border: 1px solid violet;
+	padding: 0;
+	margin:0;
+	margin-top: 10px;
+}
+
+#topTags{
+	border: 1px solid red;
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+	
+}
+
+.angular{
+	border: 1px solid blue;
+	padding: 12px;
+	width: 100%;
 	float: left;
 }
 
 
-.
+
+.tags{
+	border: 1px solid red;
+	margin: 0;
+	width: 20%;
+	float: left;
+}
+
+.view{
+	border: 1px solid blue;
+	width: 16%;
+	float: right;
+	padding: 12px 0;
+}
+
+.view-all{
+	color:#6a737c;
+	font-size: 13px;
+	float: right;
+}
+
+.post
+{
+    float:right;
+}
+.angular .fa-circle{
+	margin-left: 8px;
+}
+
+.post-count
+{
+    font-size:18px;
+}
+.post-title
+{
+    font-size:12px;
+    margin-right:10px;
+    color:#6a737c;
+} 
+
+.angular button{
+	background-color: #a0d9f4;
+	color:#399bd2;
+	border: none;
+	border-radius: 1px;
+}
