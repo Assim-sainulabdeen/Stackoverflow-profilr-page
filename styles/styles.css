@@ -1,3 +1,5 @@
+
+
 *{
 	box-sizing: border-box;
 }
@@ -572,7 +574,6 @@ li{
 }
 
 #topTags, #topTags1, #topTags2, #topTags3, #topTags4, #topTags5 {
-	border: 1px solid #d6d9dc;
 	width: 100%;
 	float: left;
 	border-radius: 6px;
@@ -583,6 +584,15 @@ li{
 	padding: 12px;
 	width: 100%;
 	float: left;
+	border: 1px solid #d6d9dc;
+	
+}
+.angular1{
+	border-radius: 6px 6px 0 0;
+}
+
+.angular2{
+	border-radius: 0 0 6px 6px;
 }
 
 
@@ -656,7 +666,7 @@ li{
 
 table{
 	border-spacing:0;
-	border-collapse: collapse;
+	/* border-collapse: collapse;*/
 	float: left;
 	margin-left: 40px;
 	border: 1px solid #838c95;
@@ -697,13 +707,15 @@ td{
 	margin:0;
 	margin-top: 10px;
 	border-radius: 5px;
-	padding: 5px;
+	padding: 0px;
 }
 
 
 .table-row{
 	padding: 8px;
 }
+
+
 
 .data{
 	border: none;
@@ -744,7 +756,7 @@ td{
 }
 
 .data2{
-	padding: 0;
+	padding: 5px;
 }
 .topMetaPosts{
 	margin-top: 20px;
@@ -834,3 +846,5 @@ footer{
 	margin-left:35px;
 	color:#787773;
 }
+
+
